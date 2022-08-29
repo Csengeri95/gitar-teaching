@@ -1,0 +1,89 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+#img{
+    background-image: url("rolam-1.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+@media screen and (max-width:992px) {
+    
+    #img{height:300px!important; width:200px; margin:0 auto;}
+}
+
+
+
+.hero-section{
+    background-image: url("hatter2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+    width:100%;
+    color:black;
+    
+}
+
+.hero-section p,h1{
+    color:rgb(192, 255, 218);
+}
+
+
+
+.intercourse{
+    
+    color: yellow!important;
+}
+.about-section{
+    margin-top:30px;
+}
+
+
+
+
+.mark{
+    color:#800000;
+}
+
+
+
+@media  screen and (max-width:992px) {
+    .courses-section button{
+        margin:20px 0;
+    }
+    
+    }
+    
+
+
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+textarea{
+    resize: none;
+}
+
+.contact-section{
+    margin-top:-50px!important;
+}
+
